@@ -6,13 +6,13 @@ export function Form() {
       <input 
         type="text"
         placeholder="Seu Nome"
-        className="p-4 rounded-lg mt-3 bg-zinc-100 text-black placeholder:text-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-zinc-100"
+        className="p-4 rounded-lg mt-3 bg-zinc-100 text-black placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-zinc-100"
         autoFocus
       />
       <input 
         type="text"
         placeholder="Seu Email"
-        className="p-4 rounded-lg mt-3 bg-zinc-100 text-black placeholder:text-zinc-900 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-zinc-100"
+        className="p-4 rounded-lg mt-3 bg-zinc-100 text-black placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-zinc-100"
         autoFocus
       />
       <button
