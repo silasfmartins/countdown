@@ -70,7 +70,7 @@ export function App() {
               </Dialog.Trigger>
               <Dialog.Portal>
                 <Dialog.Overlay className="w-screen h-screen bg-white/80 fixed inset-0" />
-                <Dialog.Content className="absolute p-10 bg-white rounded-2xl w-full max-w-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-full">
+                <Dialog.Content className="absolute p-10 bg-white rounded-2xl w-full max-w-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-full lg:-translate-y-3/4">
                   <Dialog.Close className="absolute right-6 top-6 text-zinc-900 rounded-lg hover:text-zinc-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-white">
                     <X size={24} aria-label="Fechar - Close" />
                   </Dialog.Close>
