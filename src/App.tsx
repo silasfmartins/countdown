@@ -39,10 +39,10 @@ export function App() {
       <header>
         <img className="w-full" src={topImage} alt="imagem do topo - top image" />
       </header>
-      <main className="flex items-center justify-center gap-20 my-8">
+      <main className="flex items-center justify-center gap-20 my-8 lg:flex-row flex-col">
         <div>
-          <h1 className="text-5xl font-bold text-primary text-center">READY TO LAUNCH IN...</h1>
-          <ul className="flex justify-center gap-20 text-secondary font-light text-base">
+          <h1 className="text-2xl lg:text-5xl font-bold text-primary text-center">READY TO LAUNCH IN...</h1>
+          <ul className="gap-8 flex justify-center lg:gap-20 text-secondary font-light text-base">
             {
               timeProperties.map(propertyOfTime => {
                 return (
@@ -53,7 +53,7 @@ export function App() {
               })
             }
           </ul>
-          <div className="flex gap-16 justify-center mr-8">
+          <div className="gap-4 flex lg:gap-16 justify-center lg:mr-8">
             <Time date={days} />
             <Time date={hours} />
             <Time date={minutes} />

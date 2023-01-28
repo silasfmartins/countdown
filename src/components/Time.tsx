@@ -5,7 +5,7 @@ interface TimeProps {
 export function Time({date}: TimeProps) {
   return (
     <>
-      <span className="font-normal text-7xl text-tertiary">{date}</span>
+      <span className="text-5xl font-normal lg:text-7xl text-tertiary">{date}</span>
     </>
   )
 }
